@@ -1,0 +1,49 @@
+git init // initialization
+git add hello.txt //to add or git add . //can be given 
+git status  // to check the status
+git commit -m "initial commit" // intialing the commit "give proper messages" use Windows + v to paste
+git config --global user.email "paarkavi19092001@gmail.com" // intial configuration
+git commit -m "initial commit" // authorized
+git status // check status
+
+
+//pushing to branches in master
+git remote add origin "repository url ==> copy after repository creation"
+git push origin master 
+
+if readme is created in master then pull it once 
+git pull
+
+to allow the unrelated histories
+git pull origin master --allow-unrelated-histories
+
+push again the origin maspter
+
+//cloning into other repository
+make a folder and change directory 
+git clone "paste the repository"
+ls //listing the folder
+
+ls //listing the file
+ 
+git commit --amend -m "file updated "
+https://github.com/paarkavisaravanan19/firstdemo.git
+
+
+git push -f
+
+git log --oneline
+git reset <idname>
+
+//for new branch creation
+git checkout -b <branch name>
+git branch 
+
+
+git revert HEAD --no-edit
+git cherry-pick <logid>
+
+
+
+
+
